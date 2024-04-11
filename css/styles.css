@@ -625,11 +625,13 @@ img {
   z-index: 999;
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 }
 
 .backdrop.is-open {
   opacity: 1;
   pointer-events: auto;
+  visibility: visible;
 }
 
 .modal {
